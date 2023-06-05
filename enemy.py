@@ -28,5 +28,5 @@ class Lightnings(p.sprite.Sprite):
         self.rect.down_y += self.speed_down_y
         self.rect.left_x += self.speed_left_x
         self.rect.right_x += self.speed_right_x
-        if self.rect.bottom < 0 or self.rect.up > 600 or self.rect.left < 0 or self.rect.right > 700:
+        if self.rect.bottom < 0 or self.rect.up > 700 or self.rect.left < 0 or self.rect.right > 700:
             self.kill()
